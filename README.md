@@ -15,7 +15,7 @@ We use the "//oracleserver.local" server and the "oracle_test" database for this
 *  Download the Oracle drivers from here: http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html and copy the files to to your server
 *  Install the RPM's while using these commands in exactly this order:
 
-  ```
+```
 # rpm -Uvh ./oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm
 ```
 ```
