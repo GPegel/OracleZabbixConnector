@@ -12,7 +12,7 @@ Zabbix has an option to monitor databases while using ODBC connections. This tut
 We use the "//oracleserver.local" server and the "oracle_test" database for this tutorial. Also we use an Oracle driver to connect to the database. Of course, other types of databases are also supported.
 
 *  Sign in to the Zabbix server en switch to root
-*  Copy the files in the 'OracleDrivers' folder to your server
+*  Download the Oracle drivers from here: http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html and copy the files to to your server
 *  Install the RPM's while using these commands in exactly this order:
 
   ```
@@ -124,3 +124,5 @@ export TWO_TASK
 Now you are able to create an item in Zabbix with Type "Database Monitoring" and you can enter your SQL query.
 
 For more information, have a look at the [Zabbix Documentation] https://www.zabbix.com/documentation/3.0/manual/config/items/itemtypes/odbc_checks
+
+:pizza:
