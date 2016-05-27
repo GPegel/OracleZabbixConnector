@@ -11,7 +11,7 @@ Zabbix has an option to monitor databases while using ODBC connections. This tut
 
 We use the "//oracleserver.local" server and the "oracle_test" database for this tutorial. Also we use an Oracle driver to connect to the database. Of course, other types of databases are also supported.
 
-*  Sign in to the Zabbix server en switch to root
+*  Sign in to the Zabbix server and switch to root
 *  Download the Oracle drivers from here: http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html and copy the files to to your server
 *  Install the RPM's while using these commands in exactly this order:
 
