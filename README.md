@@ -105,7 +105,7 @@ SQL>
 ORACLE_HOME=/usr/lib/oracle/12.1/client64
 LD_LIBRARY_PATH=/usr/lib/oracle/12.1/client64/lib:/usr/lib64
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/lib/oracle/12.1/client64/lib
-ORACLE_SID=EGELO
+ORACLE_SID=oracle_test
 TWO_TASK=//oracleserver.local:1525/oracle_test
 
 export ORACLE_HOME
